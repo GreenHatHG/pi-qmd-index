@@ -1,0 +1,13 @@
+{
+  "name": "pi-qmd-index",
+  "version": "0.1.0",
+  "description": "pi extension: re-run qmd update/embed when the agent settles after editing files",
+  "type": "module",
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^1.5.0",
+    "@earendil-works/pi-tui": "^1.5.0"
+  }
+}
